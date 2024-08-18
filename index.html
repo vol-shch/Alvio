@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="./src/img/costomise_little.jpg"/>
+    <title>Alivio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+           <div class="header__container">
+                <a href="#" class="header__logo">
+                    <h1 class="header__logo-text">Alvio</h1>
+                </a>
+                <div class="header__nav nav">
+                    <nav class="nav__body">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a data-goto =".banner" href="#" class="nav__link">Why Alivio</a>
+                            </li>
+                            <li class="nav__item">
+                                <a data-goto =".steps" href="#" class="nav__link">Solutions</a>
+                            </li>
+                            <li class="nav__item">
+                                <a data-goto =".success" href="#" class="nav__link">Community</a>
+                            </li>
+                            <li class="nav__item">
+                                <a data-goto =".costomise" href="#" class="nav__link">Pricing</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__btns">
+                    <a href="#" class="header__btn">Sign in</a>
+                    <a href="#" class="header__btn header__btn--green">Start Trial</a>
+                </div>
+                <button class="icon-menu" type="button">
+                    <span class="icon-menu__line"></span>
+                </button>
+           </div>
+        </header>
+        <main class="page">
+            <section data-show ="banner" class="page__banner banner">
+                <div class="banner__container">
+                    <div class="banner__content">
+                        <h2 class="banner__title title">Be aware, <br>
+                            Manage well.</h2>
+                        <p class="banner__text text">Everyone experiences stress in different ways.
+                            Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                        <a href="#" class="banner__btn banner__btn--green">Find Your Way</a>
+                    </div>  
+                </div>
+            </section>
+            <section data-show ="steps" class="page__steps steps">
+                <div class="steps__container">
+                    <div class="steps__block--text">
+                        <h2 class="steps__title steps__title--article title">Understand & Release the stress in 3 steps</h2>
+                        <p class="steps__text text">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+                    </div>
+                    <div class="steps__block--cards cards">
+                        <div class="cards__item">
+                            <h3 class="cards__title title">Personalize</h3>
+                            <p class="cards__text text">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+                            <div class="cards__img"><img src="./src/img/cards__item1.jpg" alt="Cards Image"></div>
+                        </div>
+                        <div class="cards__item cards__item--centered">
+                            <h3 class="cards__title title">Write & Understand</h3>
+                            <p class="cards__text text">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+                            <div class="cards__img"><img src="./src/img/cards__item2.jpg" alt="Cards Image"></div>
+                        </div>
+                        <div class="cards__item cards__item--third">
+                            <h3 class="cards__title title">Alivio!</h3>
+                            <p class="cards__text text">Now you are aware, and have a way to manage and overcome your own stress.
+                                What are you waiting for? Alivio today!</p>
+                            <div class="cards__img"><img src="./src/img/cards__item3.jpg" alt="Cards Image"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section data-show ="success" class="page__success success">
+                <div class="success__box">
+                    <div class="success__content">
+                        <h2 class="success__title success__title--white title">Let's hear about Kayla's success story</h2>
+                        <p class="success__text success__text--white text">See how well Alivio works in a real customer’s life. </p>
+                        <a href="#" class="success__button--green">Let’s get started</a>
+                    </div>
+                    <div class="success__player">
+                        <div class="success__player-box">
+                            <video src="./src/video/RESTAURANT & BAR DESIGN_ Follow the Follower.mp4" class="success__video" type = 'video/mp4'> 
+                            </video>
+                            <div class="controls">
+                                <button class="controls__button" title="Toggle Play">
+                                    <img src="./src/img/_play.svg" alt="Play" class="controls__play">
+                                </button>
+                                <div class="progress">
+                                    <div class="progress__filled"></div>
+                                </div>
+                                <div class="volume">
+                                    <input type="range" name="volume" class="volume__slider" min="0" max="1" step="0.05" value="1"/>
+                                </div>
+                                <button class="size-btn">[]</button>
+                                <!-- <div class="skip">
+                                    <button class="skip__button" data-skip="-15">« 15</button>
+                                    <button class="skip__button" data-skip="15">15 »</button>
+                                </div> -->
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                </div>
+            </section>
+            <section data-show ="costomise" class="page__costomise costomise">
+                <div class="costomise__container">
+                    <div class="costomise__media">
+                        <div class="costomise__img">
+                            <img src="./src/img/costomise.jpg" alt="Hero">
+                        </div>
+                        <div class="costomise__cv cv">
+                            <div class="cv__block1">
+                                <h3 class="cv__title">Customized For</h3>
+                            <div class="cv__img">
+                                <img src="./src/img/costomise_little.jpg" alt="hero">
+                            </div>
+                            <p class="cv__name">Mikayla</p>
+                            </div>
+                            <div class="cv__block2">
+                                <h3 class="cv__post-title">Your custom contents</h3>
+                                <ul class="cv__list">
+                                    <li class="cv__item">• Understand Your Stress</li>
+                                    <li class="cv__item">• Anger Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="costomise__content">
+                        <h2 class="costomise__title costomise__title--article title">You tell us your stress,
+                            We make your diary</h2>
+                        <p class="costomise__text success__text text">Everyone experiences it, and in different ways.
+                            Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                        <a href="#" class="costomise__button--green">Find Your Way</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <a href="#" class="footer__logo">
+                    <h1 class="footer__logo-text">Alvio</h1>
+                </a>
+                <div class="footer__nav nav">
+                    <nav class="nav__body nav__body--footer">
+                        <ul class="nav__list nav__list--footer">
+                            <li class="nav__item">
+                                <a data-goto =".banner" href="#" class="nav__link nav__link--footer">Why Alivio</a>
+                            </li>
+                            <li class="nav__item">
+                                <a data-goto =".steps" href="#" class="nav__link nav__link--footer">Solutions</a>
+                            </li>
+                            <li class="nav__item">
+                                <a data-goto =".success" href="#" class="nav__link nav__link--footer">Community</a>
+                            </li>
+                            <li class="nav__item">
+                                <a data-goto =".costomise" href="#" class="nav__link nav__link--footer">Pricing</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
