@@ -172,7 +172,7 @@ function animationOnScroll() {
     let succesText = document.querySelector('.success__content');
     let video = document.querySelector('.success__player');
     currentEl.offsetTop <= scrollY + visibleStep ? succesText.classList.add('left') : succesText.classList.remove('left');
-    currentEl.offsetTop <= scrollY + visibleStep ? video.style.opacity = '1' : null;
+    // currentEl.offsetTop <= scrollY + visibleStep ? video.style.opacity = '1' : null;
   }
   if (element === 'costomise') {
     let currentEl = e;
