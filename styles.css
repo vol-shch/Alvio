@@ -63,6 +63,11 @@ body {
                 /* мінімальне число + (початкове число - мінімальне) * (ширина екрану - мінімальна ширина) / (ширину обмежуючого контейнеру - мінімальна ширина)                     m dis                          */
 }
 
+video::-webkit-media-controls-panel {
+    display: none !important;
+    opacity: 1 !important;
+}
+
 /* Main block setings ----------------------------------------------------- */
 
 [class*='--green'] {
