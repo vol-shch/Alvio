@@ -63,11 +63,6 @@ body {
                 /* мінімальне число + (початкове число - мінімальне) * (ширина екрану - мінімальна ширина) / (ширину обмежуючого контейнеру - мінімальна ширина)                     m dis                          */
 }
 
-video::-webkit-media-controls-panel {
-    display: none !important;
-    opacity: 1 !important;
-}
-
 /* Main block setings ----------------------------------------------------- */
 
 [class*='--green'] {
@@ -582,7 +577,7 @@ video::-webkit-media-controls-panel {
     border-radius: 1rem;
     overflow: hidden;
     position: relative;
-    opacity: 1;
+    opacity: 0;
     transition: opacity 2s ease-out;
     display: flex;
     align-items: center;
@@ -752,6 +747,11 @@ video::-webkit-media-controls-panel {
     .success__box {
         flex-direction: column;
         align-items: start;
+    }
+}
+@media (max-width: 768.98px) {
+    .controls {
+        display: none;
     }
 }
 
